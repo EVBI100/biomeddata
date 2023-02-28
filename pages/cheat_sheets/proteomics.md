@@ -14,9 +14,9 @@ dsw:
 ---
 
 ### Description
+In proteomics depending on the type of platform used to generate data differnt data formats will be produced. For example if you have a mass spectrometer from Thermofisher these will typically produce files in the raw format, while Bruker instruments produce .de files. This complicates 
 
-
-### Type of data/experiments/methods
+### Proteomics data/experiments/mass spectrometry
 #### Type 1
 - Data name and format e.g. [mzML](https://fairsharing.org/FAIRsharing.26dmba)
 - Open Format
@@ -27,23 +27,33 @@ dsw:
 
 ### Metadata Standards
 #### Standard 1
-- Ontologies
-- Controlled vocabularies
+- Ontologies:PSI-MS (https://www.psidev.info/mzML)
+- Controlled vocabularies:  PSI-MS (https://www.psidev.info/mzML)
 - FAIRsharing entry link
+- MIAPE (Minimum Information About a Proteomics Experiment) https://www.psidev.info/miape
 
 ### Sources for Reusable Data
-#### Source name 1
-- Description e.g. reference genome assembly
+#### Source name PRIDE
+- PRIDE 
 - Standard License
-- Identifiers
-- How to access
+- Identifiers: Uniprot accesion key
+- Accesible here: (https://www.ebi.ac.uk/pride/)
+
+#### Source name Proteomeexchange
+- Proteome exchange 
+- Standard License
+- Identifiers: Uniprot accesion key
+- Accesible here: (https://www.ebi.ac.uk/pride/)
+
 
 ### Storage and Computing
-<!--Add information about e.g. NeLS-->
+- Sensitive data files should be stored in a secure environment such as TSD, SAFE or HUNT Cloud.
+- Non sensitive data could be stored at NeLS (https://nels.bioinfo.no/saml/discovery?returnIDParam=idp&entityID=urn:mace:feide.no:services:no.bioinfo.nels)
+- At the moment there are no official computing enviroments for proteomics in Norway.  
 
 ### Data Deposition Repository
 
-#### Repository Name 1
+#### Repository Name PRIDE
 - Standard License
 - Identifiers
 - How to submit data
@@ -76,4 +86,5 @@ dsw:
 - Contact Information / Website Link
 
 ### Useful Links
-<!--Add a list of relevant external/global tools-->
+For proteomics analysis https://maxquant.net/perseus/
+News about proteomics https://proteomicsnews.blogspot.com/
